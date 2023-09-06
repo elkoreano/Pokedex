@@ -44,8 +44,9 @@ const pokeName = objetoPoke.name;
 const pokeTipo = objetoPoke.types;
 const pokeHabilidad = objetoPoke.abilities;
 
-document.getElementById("pokemonName").innerHTML = pokeName
-document.getElementById("pokemonType").innerHTML = pokeTipo.map(types => types.type.name).join("-")
+document.getElementById("pokemonName").innerHTML = pokeName;
+document.getElementById("pokemonType").innerHTML = pokeTipo.map(types => types.type.name).join(" - ");
+document.getElementById("pokemonAbilities").innerHTML = pokeHabilidad.map(abilities => abilities.ability.name).join(" - ");
 
 // const objetoPokee = JSON.stringify(objetoPoke);
 // display.innerHTML = objetoPokee.name
