@@ -1,55 +1,36 @@
 <!DOCTYPE html>
 
 
-
-
 <head>
-
-
-
-
+<meta charset="UTF-8">
+<link rel="stylesheet" href="./style.css">
 </head>
-
-
 
 
 <body>
 
-
-
-
 <h1>AJAX Poke Dex</h1>
 
-
-
-
-<label for="codigos">Seleccione codigo:</label>
-<input type="text" id="pokemon" placeholder="Ingrese nombre o ID">
+<div id="div1">
+<div id="div2">
+<label id="elLabel" for="codigos">Seleccione codigo:</label>
+<input type="text" id="pokemon" placeholder="Ingrese ID">
 <button id="buscar">Buscar</button>
 
-
-
-
 <p></p>
-
-
-
 
 <p>Nombre: <span id="pokemonName"></span></p>
 <p>Tipo: <span id="pokemonType"></span></p>
 <p>Habilidades: <span id="pokemonAbilities"></span></p>
 
+</div>
 
+<div id="display">
+    <img id="pokeImgg" src="" alt="Pokemon"></div>
+</div>
 
-
-<div id="display"></div>
-
-
-
-
+<!-- El script para la logica -->
 <script src="./main.js"></script>
-
-
 
 
 </body>
