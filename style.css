@@ -1,0 +1,23 @@
+p {
+    font-weight: bold;
+}
+
+#elLabel {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#pokeImgg {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+
+#div2 {
+    display: inline-block;
+}
+
+#display {
+    display: inline-block;
+}
